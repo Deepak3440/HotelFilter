@@ -1,0 +1,121 @@
+
+.property-table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+.p {
+  display: flex;
+  align-items: center;
+  
+}
+.q {
+  flex-grow: 1;
+  text-align: right; 
+}
+
+
+.price {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.button {
+ 
+  background-color: #1e1d1d;
+  color: #faf7f7;
+  cursor: pointer;
+  
+ 
+  border-radius: 30px;
+  
+}
+
+.hotel-card {
+  position: relative;
+  display: inline-block;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 30px;
+  height: auto;
+  z-index: 14;
+  background-color: white; 
+  border-radius: 50%;
+  padding: 2px; 
+}
+
+.heart-icon.liked {
+  color: #007bff; 
+}
+
+.type-icon {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  width: 30px;
+  height: 30px;
+  color: #52bff5;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  
+
+}
+.type1{
+ 
+    padding: 8px 15px;
+    background-color: #fff;
+    color: #52bff5;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    
+    margin-left: 30px;
+  
+  
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+
+input[type="text"] {
+  padding: 12px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-grow: 1;
+  outline: none; 
+}
+
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px; 
+}
+
+button:hover {
+  background-color: #0056b3;
+}

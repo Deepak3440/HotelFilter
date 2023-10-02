@@ -1,0 +1,48 @@
+
+.property-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .property-page h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .property-page img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .property-page p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .property-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .property-table th,
+  .property-table td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .property-table th {
+   
+    font-weight: bold;
+  }
+  
+  .property-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .property-table tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
